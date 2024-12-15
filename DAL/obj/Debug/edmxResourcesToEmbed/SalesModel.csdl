@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sales_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Categories" FromRole="Categories" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategoryID" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="UnitsInStock" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK_Products_Categories" FromRole="Products" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__RoleId__4BAC3F29" FromRole="Roles" ToRole="Users" />
+    <NavigationProperty Name="RolePermissions" Relationship="Sales_DBModel.FK_RolePermissions_RoleId" FromRole="Roles" ToRole="RolePermissions" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Users__RoleId__4BAC3F29" FromRole="Users" ToRole="Roles" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="LastLogin" Type="DateTime" Precision="3" />
+    <Property Name="FailedLoginAttempts" Type="Int32" Nullable="false" />
+    <Property Name="AccountLockedUntil" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="AuditLog" Relationship="Sales_DBModel.FK_AuditLog_UserId" FromRole="Users" ToRole="AuditLog" />
+    <NavigationProperty Name="Sessions" Relationship="Sales_DBModel.FK_Sessions_UserId" FromRole="Users" ToRole="Sessions" />
+  </EntityType>
+  <Association Name="FK_Products_Categories">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleId__4BAC3F29">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Sales_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="Products" EntityType="Self.Products" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Products_Categories" Association="Self.FK_Products_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleId__4BAC3F29" Association="Self.FK__Users__RoleId__4BAC3F29">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="AuditLog" EntityType="Sales_DBModel.AuditLog" />
+    <EntitySet Name="Permissions" EntityType="Sales_DBModel.Permissions" />
+    <EntitySet Name="RolePermissions" EntityType="Sales_DBModel.RolePermissions" />
+    <EntitySet Name="Sessions" EntityType="Sales_DBModel.Sessions" />
+    <AssociationSet Name="FK_AuditLog_UserId" Association="Sales_DBModel.FK_AuditLog_UserId">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="AuditLog" EntitySet="AuditLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolePermissions_PermissionId" Association="Sales_DBModel.FK_RolePermissions_PermissionId">
+      <End Role="Permissions" EntitySet="Permissions" />
+      <End Role="RolePermissions" EntitySet="RolePermissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolePermissions_RoleId" Association="Sales_DBModel.FK_RolePermissions_RoleId">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="RolePermissions" EntitySet="RolePermissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sessions_UserId" Association="Sales_DBModel.FK_Sessions_UserId">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Sessions" EntitySet="Sessions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AuditLog">
+    <Key>
+      <PropertyRef Name="AuditId" />
+    </Key>
+    <Property Name="AuditId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="EventType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EventDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Details" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IPAddress" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Sales_DBModel.FK_AuditLog_UserId" FromRole="AuditLog" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Permissions">
+    <Key>
+      <PropertyRef Name="PermissionId" />
+    </Key>
+    <Property Name="PermissionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PermissionName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RolePermissions" Relationship="Sales_DBModel.FK_RolePermissions_PermissionId" FromRole="Permissions" ToRole="RolePermissions" />
+  </EntityType>
+  <EntityType Name="RolePermissions">
+    <Key>
+      <PropertyRef Name="RolePermissionId" />
+    </Key>
+    <Property Name="RolePermissionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="PermissionId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Permissions" Relationship="Sales_DBModel.FK_RolePermissions_PermissionId" FromRole="RolePermissions" ToRole="Permissions" />
+    <NavigationProperty Name="Roles" Relationship="Sales_DBModel.FK_RolePermissions_RoleId" FromRole="RolePermissions" ToRole="Roles" />
+  </EntityType>
+  <EntityType Name="Sessions">
+    <Key>
+      <PropertyRef Name="SessionId" />
+    </Key>
+    <Property Name="SessionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="SessionToken" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ExpiresAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Sales_DBModel.FK_Sessions_UserId" FromRole="Sessions" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK_AuditLog_UserId">
+    <End Type="Sales_DBModel.Users" Role="Users" Multiplicity="0..1" />
+    <End Type="Sales_DBModel.AuditLog" Role="AuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="AuditLog">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolePermissions_PermissionId">
+    <End Type="Sales_DBModel.Permissions" Role="Permissions" Multiplicity="1" />
+    <End Type="Sales_DBModel.RolePermissions" Role="RolePermissions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permissions">
+        <PropertyRef Name="PermissionId" />
+      </Principal>
+      <Dependent Role="RolePermissions">
+        <PropertyRef Name="PermissionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolePermissions_RoleId">
+    <End Type="Sales_DBModel.Roles" Role="Roles" Multiplicity="1" />
+    <End Type="Sales_DBModel.RolePermissions" Role="RolePermissions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="RolePermissions">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sessions_UserId">
+    <End Type="Sales_DBModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="Sales_DBModel.Sessions" Role="Sessions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Sessions">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

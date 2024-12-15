@@ -1,0 +1,44 @@
+﻿@model Entities.Users
+
+@{
+    ViewBag.Title = "Edit User";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Edit User</h2>
+
+    @using (Html.BeginForm("Update", "User", FormMethod.Post, new { @class = "p-4 shadow rounded bg-light" }))
+    {
+        <div class="mb-3">
+            <label for="UserName" class="form-label">Username:</label>
+            <input type="text" class="form-control" name="UserName" id="UserName" value="@Model.UserName" required />
+        </div>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email:</label>
+            <input type="email" class="form-control" name="Email" id="Email" value="@Model.Email" required />
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password:</label>
+            <input type="password" class="form-control" name="Password" id="Password" />
+        </div>
+        <div class="mb-3">
+            <label for="Role" class="form-label">Role:</label>
+            <select class="form-select" name="RoleId" id="RoleId" required>
+                <option value="">Select Role</option>
+                <option value="1" @(Model.RoleId == 1 ? "selected" : "")>Admin</option>
+                <option value="2" @(Model.RoleId == 2 ? "selected" : "")>Editor</option>
+                <option value="3" @(Model.RoleId == 3 ? "selected" : "")>Viewer</option>
+            </select>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+
+        if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger mt-3">
+                @ViewBag.ErrorMessage
+            </div>
+        }
+    }
+</div>

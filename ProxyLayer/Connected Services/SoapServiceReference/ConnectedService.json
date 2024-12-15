@@ -1,0 +1,21 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:61492/ProductService.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, SoapServiceReference"
+    ],
+    "references": [
+      "Newtonsoft.Json, {Newtonsoft.Json, 13.0.3}",
+      "Newtonsoft.Json.Bson, {Newtonsoft.Json.Bson, 1.0.3}",
+      "System.Net.Http.Formatting, {Microsoft.AspNet.WebApi.Client, 6.0.0}"
+    ],
+    "targetFramework": "net8.0",
+    "typeReuseMode": "All"
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="88a4f0caa12c45c0b48034d5359680b0" Name="Diagram1">
+        <EntityTypeShape EntityType="Sales_DBModel.Categories" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.Products" Width="1.5" PointX="3.375" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.Roles" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.Users" Width="1.5" PointX="4" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Sales_DBModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Sales_DBModel.FK__Users__RoleId__4BAC3F29" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Sales_DBModel.AuditLog" Width="1.5" PointX="8.75" PointY="8.5" />
+        <EntityTypeShape EntityType="Sales_DBModel.Permissions" Width="1.5" PointX="4.25" PointY="9.875" />
+        <EntityTypeShape EntityType="Sales_DBModel.RolePermissions" Width="1.5" PointX="6.5" PointY="0.875" />
+        <EntityTypeShape EntityType="Sales_DBModel.Sessions" Width="1.5" PointX="8.75" PointY="11.625" />
+        <AssociationConnector Association="Sales_DBModel.FK_AuditLog_UserId" />
+        <AssociationConnector Association="Sales_DBModel.FK_RolePermissions_PermissionId" />
+        <AssociationConnector Association="Sales_DBModel.FK_RolePermissions_RoleId" />
+        <AssociationConnector Association="Sales_DBModel.FK_Sessions_UserId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

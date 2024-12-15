@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14E301DF-06AB-4E6C-8C54-0865E20E748D}|Service\\Service.csproj|c:\\users\\sebastian\\desktop\\universidad\\distribuidas\\proyecto1parcia\u00F1\\capasales\\service\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E301DF-06AB-4E6C-8C54-0865E20E748D}|Service\\Service.csproj|solutionrelative:service\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C337E04-6DD5-4EA0-9E3E-672FF4A90F1A}|DAL\\DAL.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\dal\\sessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C337E04-6DD5-4EA0-9E3E-672FF4A90F1A}|DAL\\DAL.csproj|solutionrelative:dal\\sessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD407C2E-9D55-4434-939A-5D2880D02E5E}|BLL\\BLL.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\bll\\userlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD407C2E-9D55-4434-939A-5D2880D02E5E}|BLL\\BLL.csproj|solutionrelative:bll\\userlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\frontlayer\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C337E04-6DD5-4EA0-9E3E-672FF4A90F1A}|DAL\\DAL.csproj|c:\\users\\sebastian\\desktop\\universidad\\distribuidas\\proyecto1parcia\u00F1\\capasales\\dal\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C337E04-6DD5-4EA0-9E3E-672FF4A90F1A}|DAL\\DAL.csproj|solutionrelative:dal\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A526D4-52B5-4D93-AD43-269A65A05B17}|SecurityLayer\\SecurityLayer.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\securitylayer\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A526D4-52B5-4D93-AD43-269A65A05B17}|SecurityLayer\\SecurityLayer.csproj|solutionrelative:securitylayer\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13F8CD-4302-465F-8083-6581B1819397}|Entities\\Entities.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13F8CD-4302-465F-8083-6581B1819397}|Entities\\Entities.csproj|solutionrelative:entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|c:\\users\\sebastian\\desktop\\universidad\\distribuidas\\proyecto1parcia\u00F1\\capasales\\frontlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|c:\\users\\sebastian\\desktop\\universidad\\distribuidas\\proyecto1parcia\u00F1\\capasales\\frontlayer\\controllers\\authorizeuserattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\controllers\\authorizeuserattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\frontlayer\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\frontlayer\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|c:\\users\\sebastian\\desktop\\universidad\\distribuidas\\proyecto1parcia\u00F1\\capasales\\frontlayer\\views\\user\\retrieveall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\views\\user\\retrieveall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\frontlayer\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EFFA65-43E3-45D2-8526-DE418DC0F240}|FrontLayer\\FrontLayer.csproj|solutionrelative:frontlayer\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90BAB7B-4FBC-4D65-A59F-F12568819782}|SLC\\SLC.csproj|C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\slc\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90BAB7B-4FBC-4D65-A59F-F12568819782}|SLC\\SLC.csproj|solutionrelative:slc\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\Service\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\Service\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Service\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAmwCgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:52:48.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\DAL\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\DAL\\AuthRepository.cs",
+              "RelativeToolTip": "DAL\\AuthRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:43:21.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FrontLayer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FrontLayer\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:41:27.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorizeUserAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Controllers\\AuthorizeUserAttribute.cs",
+              "RelativeDocumentMoniker": "FrontLayer\\Controllers\\AuthorizeUserAttribute.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Controllers\\AuthorizeUserAttribute.cs",
+              "RelativeToolTip": "FrontLayer\\Controllers\\AuthorizeUserAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:35:19.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RetrieveAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\RetrieveAll.cshtml",
+              "RelativeDocumentMoniker": "FrontLayer\\Views\\User\\RetrieveAll.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\RetrieveAll.cshtml",
+              "RelativeToolTip": "FrontLayer\\Views\\User\\RetrieveAll.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:57:22.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "FrontLayer\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "FrontLayer\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:57:55.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\Entities\\Users.cs",
+              "RelativeToolTip": "Entities\\Users.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:35.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FrontLayer\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "FrontLayer\\Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:56:02.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "FrontLayer\\Views\\User\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Dashboard.cshtml",
+              "RelativeToolTip": "FrontLayer\\Views\\User\\Dashboard.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:54:44.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "FrontLayer\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\FrontLayer\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "FrontLayer\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T19:52:59.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\SLC\\IUserService.cs",
+              "RelativeDocumentMoniker": "SLC\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\SLC\\IUserService.cs",
+              "RelativeToolTip": "SLC\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:44:11.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\SecurityLayer\\AuthService.cs",
+              "RelativeDocumentMoniker": "SecurityLayer\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\SecurityLayer\\AuthService.cs",
+              "RelativeToolTip": "SecurityLayer\\AuthService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwKcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:42:07.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\DAL\\SessionRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\SessionRepository.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\DAL\\SessionRepository.cs",
+              "RelativeToolTip": "DAL\\SessionRepository.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAuwDUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:41:46.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\BLL\\UserLogic.cs",
+              "RelativeDocumentMoniker": "BLL\\UserLogic.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DISTRIBUIDAS\\PROYECTO1PARCIA\u00D1\\CapaSales\\BLL\\UserLogic.cs",
+              "RelativeToolTip": "BLL\\UserLogic.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:40:35.016Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

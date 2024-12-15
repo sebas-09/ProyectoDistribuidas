@@ -1,0 +1,13 @@
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\ProxyLayer.dll
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\ProxyLayer.pdb
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\Entities.dll
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\SLC.dll
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\Entities.pdb
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\SLC.pdb
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\obj\Debug\ProxyLayer.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\obj\Debug\ProxyLayer.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\obj\Debug\ProxyLayer.csproj.Up2Date
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\obj\Debug\ProxyLayer.dll
+C:\Users\Sebastian\Desktop\UNIVERSIDAD\DISTRIBUIDAS\PROYECTO1PARCIAÑ\CapaSales\ProxyLayer\obj\Debug\ProxyLayer.pdb

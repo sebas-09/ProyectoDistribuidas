@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Welcome to the Dashboard</h2>
+
+    <div class="alert alert-success text-center" role="alert">
+        Logged in successfully!
+    </div>
+
+    <!-- Menú de navegación -->
+    <nav class="mb-4">
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="@Url.Action("Create", "User")">Create User</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("RetrieveAll", "User")">View Users</a>
+            </li>
+       
+        </ul>
+    </nav>
+
+    <div class="text-center">
+        <a class="btn btn-outline-danger" href="@Url.Action("Logout", "User")">Logout</a>
+    </div>
+</div>

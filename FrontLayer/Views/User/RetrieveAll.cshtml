@@ -1,0 +1,30 @@
+﻿@model List<Entities.Users>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">User List</h2>
+
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td class="text-center">
+                        <a href="@Url.Action("RetrieveByID", new { userId = user.UserId })" class="btn btn-warning btn-sm me-2">Edit</a>
+                        <form action="@Url.Action("Delete", new { userId = user.UserId })" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
